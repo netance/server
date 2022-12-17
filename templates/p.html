@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netance - neet</title>
+    <script src="/jquery-3.6.1.min.js"></script>
+    <link rel="stylesheet" href="/p.css" />
+    <script defer src="/p.js"></script>
+  </head>
+  <body>
+    <main>
+      <div id="reminder">
+        <h3>You are the resistance</h3>
+        <p>Join truly decentralized social network. From any instance</p>
+        <button onclick="location.href = '/create?first=true'">
+          Join Netance
+        </button>
+      </div>
+      <div id="post"></div>
+      <div id="write-div">
+        <textarea
+          placeholder="Write your comment here..."
+          name=""
+          id="answer-text"
+          cols="30"
+          rows="10"
+        ></textarea
+        ><br />
+        <button id="answer-send">Post</button>
+        <p class="legal">
+          By clicking "Post" button, you agree to the
+          <a href="/privacy">privacy policy</a> and
+          <a href="/terms">terms of usage</a> of this instance.
+        </p>
+      </div>
+      <div id="error">
+        <h3 id="error-title"></h3>
+        <p id="error-desc"></p>
+      </div>
+      <div id="posts"></div>
+    </main>
+  </body>
+</html>

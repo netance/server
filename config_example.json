@@ -1,0 +1,8 @@
+{
+  "name": "instance",
+  "address": "ton_address",
+  "amount": 1,
+  "ton_provider": "http://yourproviderlink",
+  "privacy": "http://privacypolicylink",
+  "terms": "http://ruleslink"
+}

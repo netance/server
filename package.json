@@ -1,0 +1,20 @@
+{
+  "name": "Netance",
+  "version": "0.0.1",
+  "description": "Social networking without borders.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "ftc team",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "axios": "^1.1.3",
+    "better-sqlite3": "^8.0.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
